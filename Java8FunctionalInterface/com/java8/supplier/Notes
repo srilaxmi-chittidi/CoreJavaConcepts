@@ -1,0 +1,15 @@
+ -----// Demo and Notes on Consumer //---------
+ 
+ Variants:
+ 
+ Consumer 	->	Bi-Consumer
+ 			->	DoubleConsumer
+ 			->	LongConsumer
+ 			->	IntConsumer
+ 
+ Syntax:
+ 
+ Consumer<Integer> consumer = (value) -> System.out.println(value);
+ 	 		
+ 	-	Accepts only one argument
+ 	-	No return value

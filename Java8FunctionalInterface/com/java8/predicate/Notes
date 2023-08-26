@@ -1,0 +1,28 @@
+ -----// Demo and Notes on Predicate //---------
+ 
+Variants:
+ 
+ Predicate 	->	Bi-Predicate
+ 			->	DoublePredicate
+ 			->	LongPredicate
+ 			->	IntPredicate
+ 
+ Syntax:
+ 
+		public interface Predicate<T> {
+		 
+		    boolean test(T t);
+		 
+		} 	 		
+ -	Accepts an argument
+ -	returns boolean value
+ -  Used along with filters	
+
+ Usage :
+ 
+ -	Predicate in filter()
+ -	Predicate.and()
+ -	Predicate.or()
+ -	Predicate.negate()
+ -  Predicate.test()
+ -  Predicate in Object
